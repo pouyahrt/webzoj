@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div.box1 {
+  width: 200px;
+  height: 200px;
+  background-color: lightgray;
+  display: inline-block;
+}
+div.box2 {
+  width: 200px;
+  height: 200px;
+  background-color: lightskyblue;
+  display: inline-block;
+}
+div.box1:hover ~ div.box2 {
+  background-color: red;
+}
